@@ -60,7 +60,6 @@ function RootComponent() {
   return (
     <TooltipProvider>
       <AppShell />
-      <Outlet />
       <Toaster />
     </TooltipProvider>
   );
